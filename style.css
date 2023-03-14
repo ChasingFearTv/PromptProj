@@ -1,0 +1,129 @@
+/* Center the main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.selfie {
+    height: 100px;
+    width: 100px;
+}
+
+/* Style the navigation bar */
+.nav-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    width: 100%;
+    margin
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease-in-out;
+}
+
+nav ul li:last-child a {
+    margin-right: 0;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Section Styling */
+
+section {
+    height: 100vh;
+}
+
+/* Style the main section headings */
+
+main section h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+main section p {
+    text-align: center;
+}
+
+
+#home {
+    background-color: #3498db;
+}
+
+#about {
+    background-color: #f1c40f;
+}
+#portfolio {
+    background-color: #27ae60;
+}
+
+#contact {
+    background-color: #e74c3c;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* Containers */
+
+.first-container {
+    padding-top: 50px;
+    padding-left:40px;
+}
+
+.second-container {
+    padding-top: 50px;
+}
+
+.third-container {
+    padding-top: 50px;
+
+}
+
+.fourth-container {
+    padding-top: 50px;
+
+}
